@@ -1,0 +1,113 @@
+.edu-exp-links{
+    color:white;
+    /* border:solid red 1px; */
+    margin-top:70px;
+}
+
+.edu-exp-links .edu-links{
+    display:flex;
+}
+
+.edu-exp-links  .edu{
+    padding:5px;
+    width:60%;
+    background:linear-gradient(to right,#1e1e1e,#1a1a1a);
+    /* border:solid blue 1px; */
+    display:flex;
+    text-transform: capitalize;
+    border-radius: 5px;
+    box-shadow: 0 0 15px #000000;
+}
+
+.edu-exp-links .edu  .image{
+    display:inline;
+    width:50px;
+    /* border:solid green 1px; */
+}
+.edu-exp-links .edu .text{
+    flex-grow: 1;
+    /* border:solid yellow 1px; */
+}
+
+.edu-exp-links .edu .text .college{
+    padding-left:30px;
+    font-weight:500;
+    color:#bbbbbb;
+}
+
+.edu-exp-links .edu .text .info{
+    width:100%;
+    padding-left: 30px;
+    font-size: 14px;
+    text-transform:capitalize;
+    color:#888888;
+    text-align: justify;
+}
+
+/* .edu-exp-links .edu .text .info graduation{
+    margin: 0 15px 0 100px;
+} */
+
+.edu-exp-links .edu .text .info dept{
+    margin: 0 60px 0 60px;
+}
+
+/* .edu-exp-links .edu .text .info duration{
+    margin: 0 10px 0 15px;
+} */
+
+.edu-exp-links .edu img{
+    width:50px;
+    height:auto;
+    
+}
+
+.edu-exp-links .links{
+    text-align: left;
+    flex-grow:1;
+    transform:translateY(10px);
+    margin-left:80px;
+}
+
+.edu-exp-links .links li{
+    display:inline;
+}
+
+.edu-exp-links .links img{
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    margin: auto 10px;
+}
+
+
+.edu-exp-links .exp{
+    margin-top:15px;
+    padding:5px;
+    width:100%;
+    background:linear-gradient(to right,#1e1e1e,#1a1a1a);
+    border-radius: 5px;
+    box-shadow: 0 0 15px #000000;
+}
+
+.edu-exp-links .exp company{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight:bolder;
+    margin-left:5px;
+    margin-right: 20px; 
+    color: #cccccc;
+}
+
+.edu-exp-links .exp job{
+    font-size: 15px;
+    color: #999999;
+    margin-right: 200px;
+}
+
+.edu-exp-links .exp duration{
+    font-size: 12px;
+    color: #666666;
+    text-transform:capitalize;
+    font-weight: 500;
+}

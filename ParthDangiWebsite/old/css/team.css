@@ -1,0 +1,31 @@
+.team{
+    right:-140px;
+    bottom:180px;
+    z-index: 1;
+    transform: rotate(90deg);
+    /* border: solid blue 1px; */
+    display: flex;
+    position: fixed;
+    font-family: monospace;
+    font-weight: 100;
+    text-transform: capitalize;
+    color: rgb(92,180,104);
+}
+
+
+.team img{
+    width: 30px;
+    height: 30px;
+    transform:rotate(-90deg);
+    margin-right:20px;
+    border-radius: 50%;
+    /* border:solid red 1px; */
+}
+
+hr{
+    width: 100px;
+    background-color:rgb(92,180,104);
+    display:inline;
+    /* transform: translateY(-3px); */
+}
+

@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Parth G. Dangi | PhD Researcher, IIT Gandhinagar</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <div class="header-inner">
+    <img src="assets/images/profile.png" alt="Parth G. Dangi">
+    <div class="info">
+        <h1>Parth G. Dangi</h1>
+        <p>PhD Researcher · HAIx Lab · IIT Gandhinagar</p>
+        <p class="email">parth.dangi@iitgn.ac.in</p>
+    </div>
+    <nav>
+        <a class = 'menu-link h-link active' onclick="showSection('home', 'h-link')">Home</a>
+        <a class = 'menu-link p-link' onclick="showSection('publications', 'p-link')">Publications</a>
+        <a class = 'menu-link b-link' onclick="showSection('blogs', 'b-link')">Blogs</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ---------------- PAGE CONTENT ---------------- -->
+<main>
+<!-- ---------------- HOME ---------------- -->
+<div id="home" class="section active">
+    <div class="hero">
+        <!-- <h2>Research in Multimodal Human–AI Interaction</h2> -->
+        <p>
+            I am a PhD researcher at the Human–AI Interaction (HAIx) Lab, IIT Gandhinagar,
+            developing regressor-based brain–computer interfaces (BCI), 
+            that can decode movement parameters like force from EEG data 
+            collected during motor imagert trials for medical and other applications.
+        </p>
+    </div>
+
+    <div class="cards">
+        <div class="card tag-blue">
+            <h3>Brain-Computer Interface</h3>
+        </div>
+        <div class="card tag-purple">
+            <h3>EEG Data Analysis</h3>
+        </div>
+    </div>
+    <div class="header-social" aria-label="social links">
+        <a href="https://www.linkedin.com/in/parth-dangi-2515b423a/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.36 8h4.28V24H.36zM8.7 8h4.11v2.16h.06c.57-1.08 1.98-2.22 4.08-2.22 4.36 0 5.16 2.88 5.16 6.62V24h-4.28v-7.22c0-1.72-.03-3.94-2.4-3.94-2.4 0-2.77 1.88-2.77 3.81V24H8.7V8z"/></svg>
+        </a>
+        <a href="https://github.com/ParthGDangi" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.38 7.86 10.9.57.1.78-.25.78-.55 0-.27-.01-1-.02-1.97-3.2.7-3.88-1.43-3.88-1.43-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.75 1.18 1.75 1.18 1.02 1.75 2.68 1.25 3.34.96.1-.75.4-1.25.72-1.54-2.55-.29-5.24-1.28-5.24-5.71 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.46.11-3.05 0 0 .96-.31 3.15 1.18a10.9 10.9 0 012.87-.39c.97.01 1.95.13 2.87.39 2.19-1.5 3.15-1.18 3.15-1.18.62 1.59.23 2.76.11 3.05.73.81 1.18 1.84 1.18 3.1 0 4.44-2.69 5.41-5.25 5.69.41.35.77 1.04.77 2.1 0 1.52-.01 2.75-.01 3.12 0 .3.2.66.79.55C20.71 21.38 24 17.08 24 12c0-6.27-5.23-11.5-12-11.5z"/></svg>
+        </a>
+    </div>
+
+    <div id="gallery">
+        <h2 style="text-align: center;margin-top: 40px;">Events Gallery</h2>
+        <div class="gallery" id="galleryContainer"></div>
+
+    <!-- Modal -->
+    <div class="gallery-modal" id="galleryModal">
+        <span class="close" onclick="closeGallery()">×</span>
+        <img id="modalImage">
+        <div class="nav prev" onclick="changeSlide(-1)">❮</div>
+        <div class="nav next" onclick="changeSlide(1)">❯</div>
+        <div class="caption" id="modalCaption"></div>
+    </div>
+
+</div>
+</div>
+
+<!-- ---------------- PUBLICATIONS ---------------- -->
+<div id="publications" class="section">
+    <h2>Publications</h2>
+
+    <div class="pub-card">
+        <div class="pub-img">
+            <img src="assets/images/smc.png" alt="Grasp Force Decoding">
+        </div>
+        <div class="pub-content">
+            <div>
+                <span class="tag">Brain-Computer Interface</span>
+                <span class="tag">Continuous Decoding</span>
+                <span class="tag">EEG</span>
+            </div>
+            <h3>Improving Continuous Grasp Force Decoding from EEG with Time Frequency Regressors and Premotor Parietal Network Integration</h3>
+            <p><b>Parth G. Dangi</b>, Yogesh Kumar Meena · <i>SMC 2025</i></p>
+            <p>
+                A brain-computer interface system that decodes kinetic parameters
+                of movement like force from brain activity recorded by EEG using simple 
+                regressors. This paper introduces EEGForceMap, a preprocessing and feature
+                extraction pipeline to isolate brain activity encoding movement planning in
+                premotor-parietal region and provides features representing planning of 
+                kinetic parameters as inputs to the regressors.
+            </p>
+            <p>DOI: 10.1145/3768633.3770133</p>
+            <a class="btn" href="assets/pdf/2508.07677v1.pdf" target="_blank">PDF</a>
+            <a class="btn" href="https://doi.org/10.48550/arXiv.2508.07677" target="_blank">DOI</a>
+            <a class="btn" href="#" onclick="showBibtexFromFile('assets/bib/india_hci_25.bib')">BibTeX</a>
+        </div>
+    </div>
+</div>
+
+<!-- ---------------- BLOGS ---------------- -->
+<div id="blogs" class="section">
+    <h2>Coming soon...</h2>
+    <!-- <div class="cards">
+        <div class="blog-card">
+            <img src="assets/event/healthX/img.png">
+            <div class="content">
+                <span class="tag">Eye Tracking</span>
+                <h3>Building a Gaze Controlled Keyboard</h3>
+                <p>How we designed a low-latency gaze typing system for AAC users…</p>
+            </div>
+        </div>
+
+        <div class="blog-card">
+            <img src="assets/event/healthX/img.png">
+            <div class="content">
+                <span class="tag">BCI</span>
+                <h3>Using ErrP for Adaptive Interfaces</h3>
+                <p>How brain error signals can improve HCI reliability…</p>
+            </div>
+        </div>
+    </div> -->
+</div>
+
+<!-- ---------------- GALLERY ---------------- -->
+<div id="bibtexModal" style="
+  display:none;
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,0.6);
+  z-index:9999;
+">
+  <div style="
+    background:white;
+    width:600px;
+    max-width:90%;
+    margin:10% auto;
+    padding:25px;
+    border-radius:10px;
+  ">
+    <h3>BibTeX</h3>
+
+    <pre id="bibtexText" style="
+      background:#f5f7fb;
+      padding:15px;
+      border-radius:6px;
+      max-height:300px;
+      overflow:auto;
+    "></pre>
+
+    <button onclick="copyBibtex()" class="pub-btn">📋 Copy</button>
+    <button onclick="closeBibtex()" class="pub-btn secondary">Close</button>
+
+  </div>
+</div>
+
+
+</main>
+
+<footer>
+    © Parth G. Dangi · IIT Gandhinagar · HAIx Lab
+</footer>
+
+<script>
+function showSection(id, className) {
+    document.querySelectorAll(".section").forEach(s => s.classList.remove("active"));
+    document.getElementById(id).classList.add("active");
+    document.querySelectorAll(".menu-link").forEach(s => s.classList.remove("active"));
+    document.getElementsByClassName(className)[0].classList.add("active");
+}
+const galleries = [
+  {'title': 'HealthX Workshop 8/Jan/2026',
+  'description': 'An immersive HealthX-2026 workshop where participants experienced EEG, eye-tracking, and low-cost multimodal interaction systems developed at the HAIx Lab.',
+   'images': [
+    'assets/event/healthX/img1.png',
+    'assets/event/healthX/img.png',
+    'assets/event/healthX/img2.png',
+   ]
+  }
+];
+
+const container = document.getElementById("galleryContainer");
+
+galleries.forEach((g, index) => {
+  const card = document.createElement("div");
+  card.className = "gallery-card";
+  card.onclick = () => openGallery(index);
+
+  const preview = document.createElement("div");
+  preview.className = "gallery-preview";
+
+  // show up to 3 stacked preview images
+  g.images.slice(0, 3).forEach(img => {
+    const image = document.createElement("img");
+    image.src = img;
+    preview.appendChild(image);
+  });
+
+  const title = document.createElement("div");
+  title.className = "gallery-title";
+  title.innerText = g.title;
+
+  card.appendChild(preview);
+  card.appendChild(title);
+  container.appendChild(card);
+});
+
+
+let currentGallery = 0;
+let currentIndex = 0;
+
+function openGallery(index){
+  currentGallery = index;
+  currentIndex = 0;
+  document.getElementById("galleryModal").style.display = "flex";
+  showImage();
+}
+
+function closeGallery(){
+  document.getElementById("galleryModal").style.display = "none";
+}
+
+function showImage(){
+  const g = galleries[currentGallery];
+  document.getElementById("modalImage").src = g.images[currentIndex];
+  document.getElementById("modalCaption").innerText =
+      `${g.title} — ${g.description}`;
+}
+
+function changeSlide(dir){
+  const g = galleries[currentGallery];
+  currentIndex = (currentIndex + dir + g.images.length) % g.images.length;
+  showImage();
+}
+
+document.addEventListener("keydown", e => {
+  const modal = document.getElementById("galleryModal");
+  if(modal.style.display === "flex"){
+    if(e.key === "ArrowRight") changeSlide(1);
+    if(e.key === "ArrowLeft") changeSlide(-1);
+    if(e.key === "Escape") closeGallery();
+  }
+});
+
+document.getElementById("galleryModal").addEventListener("click", function(e){
+  if(e.target === this){
+    closeGallery();
+  }
+});
+
+function showBibtexFromFile(file){
+  fetch(file)
+    .then(res => res.text())
+    .then(text => {
+        document.getElementById("bibtexText").innerText = text;
+        document.getElementById("bibtexModal").style.display = "block";
+    })
+    .catch(err => {
+        alert("Could not load BibTeX file");
+        console.error(err);
+    });
+}
+
+function closeBibtex(){
+  document.getElementById("bibtexModal").style.display = "none";
+}
+
+function copyBibtex(){
+  const text = document.getElementById("bibtexText").innerText;
+
+  // Modern clipboard API (works on GitHub Pages)
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(text).then(() => {
+      alert("BibTeX copied to clipboard!");
+    });
+  } 
+  // Fallback (works everywhere, including file://)
+  else {
+    const textarea = document.createElement("textarea");
+    textarea.value = text;
+    textarea.style.position = "fixed";  // prevent scroll
+    textarea.style.opacity = "0";
+    document.body.appendChild(textarea);
+    textarea.focus();
+    textarea.select();
+
+    try {
+      document.execCommand("copy");
+    //   alert("BibTeX copied to clipboard!");
+    } catch (err) {
+      alert("Copy failed — please select manually.");
+    }
+
+    document.body.removeChild(textarea);
+  }
+}
+
+</script>
+
+</body>
+</html>

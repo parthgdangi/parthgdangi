@@ -1,0 +1,28 @@
+.footer{
+    font-family:monospace;
+    text-align:center;
+}
+
+.say-hello{
+    background: none;
+    border: 2px solid rgb(92, 180, 104);
+    color:rgb(93, 184, 105);
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 4px 15px;
+    border-radius: 4px;
+    margin: 120px auto 120px auto;
+    
+}
+
+.say-hello:hover{
+    background: rgba(133, 185, 141, 0.3);
+    transition-duration: .3s;
+}
+
+.footer .end-of-portfolio{
+    font-weight: 100;
+    color: rgb(121, 189, 130);
+    font-size: 12px;
+    margin-bottom: 40px;
+}

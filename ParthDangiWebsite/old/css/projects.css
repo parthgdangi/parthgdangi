@@ -1,0 +1,88 @@
+.projects_main {
+  /* background:white; */
+  color: white;
+  margin-bottom: 200px;
+}
+
+.projects_body {
+  border: solid green 1px;
+  padding-top: 60px;
+}
+
+.projects-intro {
+  /* margin-top:100px; */
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  /* border:solid blue 1px; */
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+  color: #888888;
+}
+
+.image_typing_main {
+  height: 550px;
+  /* border:solid green 1px; */
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image_typing {
+  /* border:solid red 1px; */
+  display: inline-block;
+  width: 80%;
+  height: 450px;
+  text-align: center;
+  background-image: url("../images/typing_cropped.gif");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+  border-radius: 50%;
+  margin: auto;
+  opacity: 0.4;
+}
+
+.image_typing img {
+  height: auto;
+  width: 100%;
+  /* border-radius: 50%; */
+}
+
+.projects_body .skills_learnt {
+  /* border:solid blue 1px; */
+  height: 80px;
+  /* background: rgb(243,244,237); */
+  /* border-radius: 10px; */
+  /* margin:0 10px; */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.61);
+}
+
+.projects_body .exp_projects {
+  /* border:solid yellow 1px; */
+  display: flex;
+  flex-flow: column;
+  /* box-shadow: 0 0 100px black; */
+}
+
+.projects_body .projects_experience {
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* border:solid red 1px; */
+  border-radius: 10px;
+  height: 80px;
+  /* background-color: #aefefe; */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.616);
+}
+
+.project_title {
+  color: white;
+}
+
+.projects_body .projects_projects {
+  /* border:solid yellow 1px; */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.603);
+  flex-grow: 1;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,181 @@
+.card-message{
+    display:flex;
+    /* border: solid yellow 1px; */
+    /* background-color: #072227; */
+    padding-top:200px;
+}
+
+.short-card{
+    width: 50%;
+    /* border: solid blue 1px; */
+    /* background: linear-gradient(to top right, #333333,#353535); */
+    background:#001217bd;
+    padding: 20px 20px 5px 20px;
+    color: #888888;
+}
+.about-card{
+    flex-grow:1;
+    border: solid green 1ps;
+}
+
+
+.short-card .card-top{
+    width: 100%;
+    display: flex;
+}
+
+.short-card .card-top .image{
+    width: 20%;
+    text-align:center;
+    transform: translateY(20px);
+    opacity: .6;
+}
+.short-card .card-top .image img{
+    width: auto;
+    height: 100px;
+    /* border:solid rgb(92,180,104) 1px; */
+    border-radius: 50px;
+    background: none;
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.356);
+}
+
+.short-card .card-top .card-text{
+    flex-grow: 1;
+    margin-left: 50px;
+}
+
+.short-card .card-top .name hi{
+    font-size: 13px;
+    color: rgb(105, 206, 118);
+}
+
+.short-card .card-top .name name{
+    font-size: 30px;
+    text-transform:capitalize;
+    margin-left: 10px;
+    color: #888888;
+    text-shadow: 0 0 15px rgb(0,0,0);
+}
+
+.short-card .card-top .work{
+    font-size: 13px;
+}
+
+.short-card .card-top domain{
+    font-size: 15px;
+    color:rgb(219, 123, 78);
+    font-weight: 400;
+}
+
+.short-card .card-top .contact{
+    font-size: 13px;
+    text-align:center;
+}
+.short-card .card-top .contact img{
+    width: 15px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.short-card .card-top .contact website{
+    margin-left: 20px;
+}
+
+.short-card .card-college {
+    text-align:center;
+    margin-top: 20px;
+}
+
+.short-card .card-college img{
+    width: 30px;
+    height: auto;
+}
+
+
+
+.short-card .card-college div{
+    display:inline;
+    transform: translateY(5px);
+    margin-left: 15px;
+    font-size: 13px;
+}
+
+
+
+.short-card .download_card{
+    display:inline;
+    transform: translateY(5px);
+    margin-left: 5px;
+}
+
+.short-card .download_card img{
+    width: 30px;
+    height: auto;
+    transform: translateX(60px);
+    box-shadow: 0 0 5px #888888;
+    border-radius: 50%;
+}
+
+.short-card .download_card img:hover{
+    box-shadow: 0 0 5px #000000;
+    transform:translate(62px,3px);
+    transition-duration: .5s;
+}
+
+.about-card{
+    flex-grow: 1;
+    padding: 0 20px 0 20px;
+    font-size: 14px;
+    color: #aaaaaa;
+    text-align:justify;
+    /* border:solid red 1px; */
+}
+
+.about-card form{
+    display: flex;
+    flex-flow: column;
+    height:100%;
+    width:100%;
+}
+.about-card data{
+    display: flex;
+}
+.about-card input{
+    background:none;
+    border: solid rgb(219,123,78) 1px;
+    border-radius: 2px;
+    margin:5px;
+    
+}
+
+.about-card #name{
+    width:40%;
+    color:white;
+}
+.about-card #mail_id{
+    flex-grow: 1;
+    color:white;
+}
+.about-card #message{
+    background:none;
+    border: solid rgb(219,123,78) 1px;
+    flex-grow: 1;
+    margin:5px;
+    color:white;
+}
+
+.about-card button{
+    background: none;
+    border: solid rgb(92,180,104) 2px;
+    color: rgb(92,180,104);
+    text-transform: uppercase;
+    font-weight: 600;
+    margin:5px;
+}
+
+.about-card button:hover{
+    background: rgba(92,180,104,.2);
+    transition-duration: .5s;
+}
+
+

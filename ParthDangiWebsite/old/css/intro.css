@@ -1,0 +1,127 @@
+.empty_top_div{
+    height:100px;
+    /* border:solid green 1px; */
+}
+#intro{
+    /* border:solid rgb(24, 23, 23) 1px; */
+    top: 0;
+    /* margin-top:0; */
+    /* padding-top:20px; */
+}
+
+#intro>#body{
+    display:flex;
+} 
+
+#intro > #body > .image{
+    width:30%;
+}
+
+#intro img{
+    width: 275px;
+    height:auto;
+    border-radius:200px;
+    /* border: solid rgb(139, 179, 145) 1px; */
+    box-shadow: 0 0 800px rgba(210, 219, 212, 0.3);
+    /* opacity: .6; */
+}
+
+#intro > #body > .intro-text{
+    flex-grow:1;
+    color:rgb(216, 216, 216);
+    width: 60%;
+    padding:5% 5% 0 5%;
+}
+
+#intro > #body > .intro-text > .intro-header > .name{
+    color:rgb(92, 180, 104);
+    /* border:solid blue 1px; */
+    margin:0;
+}
+
+#intro > #body > .intro-text > .intro-header > .name > name{
+    color:#444444;
+    font-weight:600;
+    text-transform: capitalize;
+    font-size: 50px;
+    margin-left:10px;
+    text-shadow: 0 0 15px rgb(0,0,0);
+}
+
+
+#intro > #body .work{
+    font-size: 20px;
+    font-weight:lighter;
+    margin:0;
+    font-weight: 400;
+}
+
+#intro > #body domain{
+    color:#f29a9a;
+    font-size:25px;
+    font-weight:normal;
+    text-transform: capitalize;
+}
+
+#intro > #body .intro-description{
+    font-size:15px;
+    margin: 30px 0;
+    font-weight:100;
+    text-align:justify;
+    font-family:serif;
+    color: #888888;
+}
+
+#intro > #body .intro_links{
+    text-align: center;
+    width:100%;
+    /* border: solid red 1px; */
+}
+
+#intro > #body .hire{
+    /* border: solid green 1px; */
+    text-align:center;
+}
+
+#intro > #body .resume{
+    /* border: solid rgb(219,123,78) 1px; */
+    text-align:center;
+}
+
+
+#intro > #body  .hire > button{
+    background: none;
+    border: 2px solid rgb(92, 180, 104);
+    color:rgb(92, 180, 104);
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 4px 15px;
+    border-radius: 4px;
+    /* margin-top:20px; */
+}
+
+#intro > #body .hire > button:hover{
+    background: rgba(112,161,119, .1);
+    transition-duration: .3s;
+    
+}
+
+
+
+#intro > #body  .resume > button{
+    background: none;
+    border: 2px solid #f29a9a;
+    color: #f29a9a;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 4px 15px;
+    border-radius: 4px;
+    margin-right:10px;
+    /* margin-top:20px; */
+}
+
+#intro > #body .resume > button:hover{
+    background: rgba(221,123,78, .1);
+    transition-duration: .3s;
+    
+}
